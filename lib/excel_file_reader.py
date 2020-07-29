@@ -1,5 +1,4 @@
 
-import boto3
 
 class S3Reader:
 

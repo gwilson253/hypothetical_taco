@@ -40,3 +40,47 @@ class HeaderDFParser(DataFrameParser):
         pass
 
 
+class DateDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+
+class YouthStylesDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+
+class LocalCurrencyDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+class FabricDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+class TrimsDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+
+class NoSewAppDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+class PackagingDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
+
+class SummaryDFParser(DataFrameParser):
+
+    def __init__(self, template_file):
+        super().__init__(template_file)
+
